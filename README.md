@@ -153,10 +153,6 @@ Parquet es ideal para situaciones donde:
 | Datos almacenados en Formato Apache Parquet | 130 GB           | 6.78 segundos                     | 2.51 GB          | $0.01    |
 | Ahorros                                | 87% menos al usar Parquet | 34 veces más rápido           | 99% menos datos escaneados | 99.7% de ahorro |
 
----
-
-# Implementación
-
 ## Guía de Instalación
 **Instalación de pyarrow**:
 ```bash
@@ -278,10 +274,6 @@ ClickHouse es ideal para:
 - Situaciones donde se requiere escalabilidad sin comprometer el rendimiento.
 - Dashboards y aplicaciones de análisis que necesitan respuestas rápidas.
 
----
-
-# Implementación
-
 ## Guía de Instalación
 **Instalación de ClickHouse**:
 ```bash
@@ -312,9 +304,9 @@ SELECT * FROM ventas WHERE producto = 'Producto A';
 - `SELECT`: Consulta y recupera datos de la tabla.
 - `WHERE`: Es una cláusula que filtra los resultados de una consulta según una condición.
 
-# Implementación con Python
+## Implementación con Python
 
-## Instalación de la biblioteca
+### Instalación de la biblioteca
 
 Antes de comenzar, necesitarás instalar la biblioteca `clickhouse-driver` para Python:
 
@@ -322,7 +314,7 @@ Antes de comenzar, necesitarás instalar la biblioteca `clickhouse-driver` para 
 pip install clickhouse-driver
 ```
 
-## Creación y lectura de una tabla en ClickHouse usando Python
+### Creación y lectura de una tabla en ClickHouse usando Python
 
 ```python
 from clickhouse_driver import Client
@@ -353,7 +345,7 @@ for row in result:
     print(row)
 ```
 
-## Explicación del código
+### Explicación del código
 
 - `Client`: Es la clase principal que proporciona la conexión a ClickHouse.
 - `client.execute()`: Método utilizado para ejecutar consultas en ClickHouse.
@@ -408,10 +400,6 @@ Amazon Redshift es ideal para:
 - **Análisis de Marketing**: Las empresas pueden analizar el comportamiento del consumidor y la efectividad de las campañas publicitarias al integrar datos de varias fuentes.
 
 - **Investigación Científica**: Los investigadores pueden almacenar y analizar grandes conjuntos de datos genómicos o de otro tipo para descubrir patrones y hacer nuevos descubrimientos.
-
----
-
-# Implementación
 
 ## Guía de Configuración
 
