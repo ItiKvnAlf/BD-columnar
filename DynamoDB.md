@@ -336,6 +336,14 @@ print(table)
 
 # Resultados y conclusiones
 
+![image](https://github.com/ItiKvnAlf/BD-columnar/assets/103331361/b9d2f58a-0801-46ae-9eeb-7db7ccc92b4d)
+
+En la primera imagen se muestra el resultado de la creación de la tabla 'Reservations', imprimiendo para cada una de las filas su identificación, fecha y hora en la que se realizó la reserva, el nombre del cliente y el número de mesa.
+
+![image](https://github.com/ItiKvnAlf/BD-columnar/assets/103331361/4640ac33-e761-4927-9b39-1d076c14e355)
+
+Luego, se buscan e imprimen todas las reservas que tengan como número de mesa el valor '10', para después eliminar todas las reservas que hagan referencia al mismo. La tabla resultante se muestra vacía.
+
 La implementación explicada a detalle durante este informe demuestra cómo DynamoDB puede ser utilizado de manera eficaz para gestionar datos de reservas, proporcionando un rendimiento rápido, escalabilidad y flexibilidad en el modelo de datos. La importancia de DynamoDB está en su capacidad para manejar eficientemente operaciones de lectura, escritura y consulta en entornos donde la velocidad y la escalabilidad son críticas. Este enfoque de base de datos NoSQL es especialmente valioso en comparación con otras APIs debido a su rendimiento optimizado y a la naturaleza totalmente administrada del servicio, y además poder trabajar junto a otros servicios proporcionados por AWS.
 
 ---
